@@ -1,0 +1,50 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.header > .header__left {
+  flex: 0.3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__left > .inImage {
+  object-fit: contain;
+  height: 35px;
+}
+.header__left > .header__searchBox {
+  display: flex;
+  align-items: center;
+  background-color: rgb(164 164 255 / 25%);
+  color: gray;
+  margin-left: 10px;
+}
+.header__searchBox > .searchIcon {
+  padding-left: 10px;
+  font-size: 19px;
+  color: black;
+}
+.header__searchBox > input {
+  border: none;
+  outline: none;
+  height: 20px;
+  font-size: 15px;
+  padding: 8px;
+  background: transparent;
+  color: gray;
+}
+
+.header__right {
+  flex: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
