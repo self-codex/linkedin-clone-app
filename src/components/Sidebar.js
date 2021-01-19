@@ -23,7 +23,26 @@ function Sidebar() {
           <p className="status__num">3,235</p>
         </div>
       </div>
-      <div className="sidebar__bottom"></div>
+      <div className="sidebar__bottom">
+        <h3>Recent</h3>
+        <div className="sidebar__recent">
+          <div className="following">
+            <span className="hash">#</span>
+            <p className="title"> hiring</p>
+          </div>
+          <div className="following">
+            <span className="hash">#</span>
+            <p className="title"> hiring</p>
+          </div>
+          <div className="following">
+            <span className="hash">#</span>
+            <p className="title"> hiring</p>
+          </div>
+        </div>
+        <div className="sidebar__more">
+          <button className="more__btn">Discover more</button>
+        </div>
+      </div>
     </div>
   );
 }

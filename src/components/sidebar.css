@@ -2,11 +2,12 @@
   position: sticky;
   top: 80px;
   flex: 0.2;
-  border: 1px solid red;
-  padding: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: fit-content;
 }
 .sidebar > .sidebar__top {
   display: flex;
@@ -62,7 +63,6 @@
   padding: 10px 10px;
   box-sizing: border-box;
   border: 1px solid lightgray;
-  border-top: 0;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -79,4 +79,70 @@
 .sidebar__stats > .status__num {
   font-size: 13px;
   color: #0a66c2 !important;
+  font-weight: bold;
+}
+
+.sidebar__bottom {
+  margin-top: 10px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  width: 220px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.sidebar__bottom > h3 {
+  font-weight: 300;
+  font-size: 18px;
+  padding-left: 10px;
+  color: rgb(44, 44, 44);
+}
+.sidebar__recent {
+  margin: 10px 0px 20px;
+}
+.following {
+  display: flex;
+  align-items: center;
+  padding: 4px 15px;
+  cursor: pointer;
+}
+.following:hover {
+  background-color: whitesmoke;
+}
+.following:hover > .title {
+  color: rgb(44, 44, 44);
+}
+
+.following > .hash {
+  font-weight: 800;
+  font-size: 17px;
+  margin-right: 8px;
+  color: rgb(44, 44, 44);
+}
+.following > .title {
+  font-weight: 600;
+  font-size: 13px;
+  padding: 4px 3px;
+  color: gray;
+}
+.sidebar__more {
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.sidebar__more:hover {
+  background-color: whitesmoke;
+}
+.sidebar__more:hover > .more__btn {
+  color: rgb(44, 44, 44);
+}
+.sidebar__more > .more__btn {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
 }
