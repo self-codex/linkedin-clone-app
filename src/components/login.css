@@ -33,4 +33,14 @@
   font-weight: 600;
   color: white;
   background-color: #0e76a8;
+  cursor: pointer;
+}
+.login > p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgb(46, 46, 46);
+}
+.login > p > .login__register {
+  color: #0e76a8;
+  cursor: pointer;
 }
